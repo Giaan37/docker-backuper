@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-BACKUP_DIR="/media/glmds/7c541507-377b-486e-ba42-3d4daeb9aeb9/backups/"  # Change this to your backup directory
+BACKUP_DIR="/path/backups/"  # Change this to your backup directory
 BACKUP_IMAGES="$BACKUP_DIR/docker_images_*"
 BACKUP_VOLUMES="$BACKUP_DIR/docker_volumes_*"
 BACKUP_CONTAINERS="$BACKUP_DIR/docker_containers_*"
