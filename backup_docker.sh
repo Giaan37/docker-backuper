@@ -1,7 +1,8 @@
 #!/bin/bash
+
 docker stop open-webui portainer comfyui-cu124 n8n
 # Variables
-BACKUP_DIR="/mnt/sdb1/hj"  # Change this to your desired backup directory
+BACKUP_DIR="/home/glmds/Desktop/dockers"  # Change this to your desired backup directory
 DATE=$(date +"%Y%m%d_%H%M%S")
 BACKUP_IMAGES="$BACKUP_DIR/images/"
 BACKUP_VOLUMES="$BACKUP_DIR/volumes/"
